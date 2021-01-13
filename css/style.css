@@ -1,0 +1,40 @@
+/* Nav & banner Styles */
+
+header {
+  background-color: #FFF9F4;
+}
+
+.web-logo {
+  width: 200px;
+  height: 30px;
+}
+
+.benner-title {
+  color: #363958;
+  font-size: 80px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.orange-highlight {
+  color: #FA804C;
+}
+
+.banner-text {
+  color: #363958;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.custom-btn {
+  color: white;
+  background: linear-gradient(180deg, #3D4FF3, #3543BC);
+  border: none;
+  padding: 20px 35px;
+  border-radius: 10px;
+}
+
+@media (max-width: 992px) {
+  .flex-reverse {
+    flex-direction: column-reverse;
+  }
+}
