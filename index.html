@@ -40,9 +40,9 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto">
             <a class="nav-link fw-bold" href="#">Home</a>
-            <a class="nav-link fw-bold" href="#">Product</a>
-            <a class="nav-link fw-bold" href="#">About us</a>
-            <a class="nav-link fw-bold" href="#">Contact us</a>
+            <a class="nav-link fw-bold" href="#products">Product</a>
+            <a class="nav-link fw-bold" href="#about">About us</a>
+            <a class="nav-link fw-bold" href="#contact">Contact us</a>
           </div>
         </div>
       </div>
@@ -67,13 +67,13 @@
 
   </header>
 
-  <!--Products and services section -->
+  <!--Products and About section -->
   <!-- //////////////////////////// -->
   <main>
     <div class="container">
 
       <!-- First Product Row -->
-      <h1 class="custom-title font-bebas fs-1 py-5">CASUAL SHOES</h1>
+      <h1 id="products" class="custom-title font-bebas fs-1 py-5">CASUAL SHOES</h1>
 
       <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
 
@@ -170,8 +170,8 @@
 
       </div>
 
-      <!-- services section-->
-      <div class="row my-5 align-items-center flex-reverse">
+      <!-- About section-->
+      <div id="about" class="row align-items-center flex-reverse my-5 py-5">
         <div class="col-lg-6">
           <!-- service 1 -->
           <div class="card border-0 shadow py-3 mb-3 ">
@@ -224,13 +224,61 @@
         <div class="col-lg-6">
           <img src="images/sevice-picture.png" class="w-100 mb-5" />
         </div>
-        
+
       </div>
 
     </div>
   </main>
 
+  <!-- contact Section -->
+  <footer id="contact">
+    <div class="container">
+      <div class="row justify-content-center py-4">
 
+        <div class="col-sm-4 d-flex flex-column align-items-center my-4">
+          <h5 class="text-white">More About us</h5>
+          <ul class="list-group list-unstyled">
+            <li><a class="text-white" href="#">Careers</a></li>
+            <li><a class="text-white" href="">Bogs</a></li>
+            <li><a class="text-white" href="">About Penguin</a></li>
+            <li><a class="text-white" href="">Investor Relations</a></li>
+            <li><a class="text-white" href="">Penguin Device</a></li>
+            <li><a class="text-white" href="">Penguin Tours</a></li>
+          </ul>
+        </div>
+
+        <div class="col-sm-4 d-flex flex-column align-items-center my-4">
+          <h5 class="text-white">Some Facilities</h5>
+          <ul class="list-group list-unstyled">
+            <li><a class="text-white" href="">Sell Products</a></li>
+            <li><a class="text-white" href="">Sell Apps</a></li>
+            <li><a class="text-white" href="">Become Affiliate</a></li>
+            <li><a class="text-white" href="">Advertise Product</a></li>
+            <li><a class="text-white" href="">Self Published</a></li>
+            <li><a class="text-white" href="">Penguin Hub</a></li>
+          </ul>
+        </div>
+
+        <div class="col-sm-4 d-flex flex-column align-items-center my-4">
+          <h5 class="text-white text-start">Social Media</h5>
+          <div>
+            <i class="fab fa-facebook-square text-primary fs-2"></i>            
+            <i class="fab fa-instagram-square text-danger fs-2"></i>
+            <i class="fab fa-twitter-square text-info fs-2"></i>
+            <i class="fab fa-linkedin text-white fs-2"></i>            
+          </div>
+          <div>
+            <i class="fab fa-youtube-square text-danger fs-2"></i>            
+            <i class="fas fa-share-alt-square text-white fs-2"></i>
+            <i class="fab fa-snapchat-square text-warning fs-2"></i>
+            <i class="fab fa-google-plus-square text-success fs-2"></i>
+          </div>
+        </div>
+
+      </div>
+      <p class="text-center text-white m-0 mt-5"><small>Copyright 2021 Penguin Fashion. All Rights Reserved</small></p>
+    </div>
+  </footer>
 
   <!-- Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
